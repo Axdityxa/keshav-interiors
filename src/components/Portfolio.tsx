@@ -31,7 +31,7 @@ const projects = {
     },
     {
       title: 'Purva Skywood',
-      image: 'https://images.unsplash.com/photo-1600607687644-c7f34c5a3f6b?q=80&w=800&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=800&auto=format&fit=crop',
     },
     {
       title: 'Embassy Lake Terraces',
