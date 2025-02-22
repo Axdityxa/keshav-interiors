@@ -8,6 +8,7 @@ import WhyChooseUs from './components/WhyChooseUs';
 import Team from './components/Team';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
+import WhatsAppButton from './components/WhatsAppButton';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Team />
       <Testimonials />
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }

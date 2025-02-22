@@ -31,9 +31,9 @@ const Hero = () => {
             href="#projects"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="btn-primary inline-block"
+            className="btn-primary inline-block text-gray-800"
           >
-            View Our Projects
+            Book a Free Consultation
           </motion.a>
         </motion.div>
       </div>
