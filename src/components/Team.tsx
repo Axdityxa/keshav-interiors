@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Armchair, Users, Wrench } from 'lucide-react';
 
