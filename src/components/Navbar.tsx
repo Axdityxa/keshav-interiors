@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-md py-4' : 'bg-transparent py-6'
+        isScrolled ? 'bg-white shadow-md py-4 text-gray-800' : 'bg-transparent py-6 text-gray-300'
       }`}
     >
       <div className="container flex items-center justify-between">
@@ -28,11 +28,16 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-8">
-          <a href="#home" className="nav-link">Home</a>
-          <a href="#projects" className="nav-link">Projects</a>
-          <a href="#about" className="nav-link">About</a>
-          <a href="#services" className="nav-link">Services</a>
-          <a href="#contact" className="btn-primary">Contact Us</a>
+          <a href="#home" className={`nav-link ${isScrolled ? 'text-gray-800' : 'text-gray-300'}`}>Home</a>
+          <a href="#projects" className={`nav-link ${isScrolled ? 'text-gray-800' : 'text-gray-300'}`}>Projects</a>
+          <a href="#about" className={`nav-link ${isScrolled ? 'text-gray-800' : 'text-gray-300'}`}>About</a>
+          <a href="#services" className={`nav-link ${isScrolled ? 'text-gray-800' : 'text-gray-300'}`}>Services</a>
+          <a 
+            href="#contact" 
+            className={`btn-primary ${isScrolled ? 'bg-red-500 text-white' : 'bg-red-300 text-gray-800'}`}
+          >
+            Contact Us
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
