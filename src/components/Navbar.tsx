@@ -23,7 +23,7 @@ const Navbar = () => {
     >
       <div className="container flex items-center justify-between">
         <a href="/" className="text-2xl font-playfair font-bold">
-          KeshavInteriors
+          Keshav Interiors
         </a>
 
         {/* Desktop Navigation */}
